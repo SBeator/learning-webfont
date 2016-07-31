@@ -5,6 +5,7 @@ module.exports = function (grunt) {
       icons: {
         src: 'icons/*.svg',
         dest: 'build/fonts',
+        destCss: 'build/style'
       }
     }
   });
